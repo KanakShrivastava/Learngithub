@@ -4,11 +4,12 @@
     <!-- dark blue colour=tags, light blue colour = attribute, orange colour = values -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
 </head>
 <!-- bgcolor is in red colour because the tag is not present in the latest version -->
-<body bgcolor="yellow"> 
-    Hello World! <h1>hello</h1>
+<body> 
+    <!-- Hello World! <h1>hello</h1>
     <h2>hello</h2>
     <h3>hello</h3>
     <h6>hello</h6>
@@ -16,8 +17,109 @@
     kanak
     <i>italic</i>
     <mark>mmmm</mark>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptas magni nisi culpa praesentium? Fuga repellat cum assumenda esse iste quas eius nihil reprehenderit laudantium, aliquam ipsum voluptatem? Adipisci, eaque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <s> Aliquam voluptas magni nisi culpa praesentium? Fuga repellat cum assumenda esse iste quas eius nihil</s> reprehenderit laudantium, aliquam ipsum voluptatem? Adipisci, eaque.</p>
     <p>Lorem, ipsum.</p> 
-    <p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i><u> Obcaecati iusto magni molestias rerum incidunt cum nobis est alias quae, illum voluptas soluta at, ea repudiandae ipsam mollitia perspiciatis necessitatibus.</u><b> Dolore?</b></p>
-</body>
+    <p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i><u> Obcaecati iusto magni molestias rerum incidunt cum nobis est alias quae, illum voluptas soluta at, ea repudiandae ipsam mollitia perspiciatis necessitatibus.</u><b> Dolore?</b></p> -->
+
+<!-- <opening tag attribute_name = "value"></closing tag> -->
+    <!-- LIST -->
+    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <s> Aliquam voluptas magni nisi culpa praesentium? Fuga repellat cum assumenda esse iste quas eius nihil</s> reprehenderit laudantium, aliquam ipsum voluptatem? Adipisci, eaque.</p>
+    <p>Lorem, ipsum.</p> 
+    <p><i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</i><u> Obcaecati iusto magni molestias rerum incidunt cum nobis est alias quae, illum voluptas soluta at, ea repudiandae ipsam mollitia perspiciatis necessitatibus.</u><b> Dolore?</b></p> -->
+
+    <!-- ORDERED LIST -->
+     Ordred List:-
+     <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+     </ol>
+<!-- ol numbering types = 1, A, a, I, i -->
+     <ol type = "i">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li></li>
+        <li></li>
+        <!-- for n number of tags in one time exact => li*n and ENTER -->
+     </ol>
+
+    <!-- UNORDERED LIST -->
+     Unordered list:-
+     <ul>
+        <li>Orange</li>
+        <li>Banana</li>
+     </ul>
+
+     <ul type = "circle">
+        <li>orange</li>
+        <li>banana</li>
+     </ul>
+
+     <ul type = "square">
+        <li>orange</li>
+        <li>banana</li>
+        <li></li>
+        <li></li>
+     </ul>
+     <!-- Default bullet type is DISK else => square, circle-->
+ 
+     <!-- IMAGE -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfbEbON3hP1A6EA-KAEC5SHceUMvW9Zlp96TI__GYeDgo9MCp-7jcER6tt6mDb991u_CfgfPiygwiMlqma6MIciNQk141zry8WB-XLtA&s=10" alt="" width = "300px">
+      <img src="apple.avif" alt="Apple image here" width="300px">
+      <img src="a.jpg" alt="" width="300px">
+
+      <!-- VIDEO -->
+       <video src="vecteezy_walking-in-tropical-forest-with-small-creek-flowing-over-the_4416948.mp4" width="500px" height="300px" controls muted autoplay loop></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rN9wwGd5Ohg?si=R3YDSQNOdClIixdT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <!-- HW = Youtube video in this website, and Working google map -->
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14663.943523590455!2d77.43577334999999!3d23.24360085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1770112786351!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   
+    <form align = "center">
+      <fieldset>
+        <legend>Personal Details</legend><br>
+        Enter full name: <input type="text" placeholder="Enter you name" required> <br><br>
+
+        Gender: <input type="radio" name="gen" id=""> Male <input type="radio" name="gen" id=""> Female <input type="radio" name="gen" id=""> Others <br><br>
+        
+        Enter email: <input type="email" placeholder="Enter your email" required><br><br>
+
+        Enter phone number: <input type="number" placeholder="Enter you mobile number" required><br><br>
+
+        Create password <input type="password" placeholder="Enter your password" required> <br> 
+        (Create a strong password)<br><br>
+
+        Select program you are applying for: 
+        <select>
+         <option>MERN</option>
+         <option value="">Java</option>
+         <option value="">Python</option>
+        </select>
+
+        <br><br>
+        Upload your resume here: <input type="file" name="" id="" required> <br><br>
+        </fieldset>
+
+      <!-- <lable></lable>, <legend></legend>, <fieldset></fieldset>, Also change the name of Submit button-->
+       <!-- <label>ffff</label> <fieldset>fdfd <legend>hhh</legend> </fieldset> -->
+
+         <fieldset>
+            <legend>Education</legend><br>
+            <label for="">School name: </label>
+            <input type="text"><br><br>
+            <label for="">CGPA: </label>
+            <input type="number" name="" id=""><br>
+         </fieldset>
+
+         click here if you agree <input type="checkbox"><br><br>
+
+        Date <input type="date" name="" id=""><br><br>
+
+        Click here to submit -> <input type="button" value="Log in"><br><br>
+       </form>
+       
+   </body>
 </html>
+<!-- <s></s> strike tag is used to cut the content in it by a line, eg- to show the change in price -->
